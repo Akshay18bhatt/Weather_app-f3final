@@ -43,8 +43,8 @@
     border-radius: 10px;
     outline: none;
     border: none;
-    background-color: #272b4d;
-    box-shadow: -2px -5px 5px #1d0f3c;
+    background-color: #1b1e45;
+    box-shadow: -2px -5px 5px #12062b;
     color: #fff;
     font-size: 16px;
 }
@@ -58,6 +58,12 @@
     border: none;
     background-color: #403571;
     color: #fff;
+}
+#add-btn:hover{
+    background-color: #12062b;
+}
+#add-btn:active{
+    transform: scale(1.1,1.1);
 }
 
 #city-weather-container{
@@ -162,3 +168,7 @@
 #feels-like sub{
     font-size: 7px;
 }
+
+
+
+
